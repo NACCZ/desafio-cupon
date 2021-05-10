@@ -1,0 +1,41 @@
+.root {
+   --gris:#707070
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.tamaño{
+    width: 86;
+    height: 25;
+}
+
+.cupon{
+    width: 100px;
+}
+
+p, .gris, input[placeholder] {
+    color: var(--gris);
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.boton{
+    border: 2px solid #ffffff80;
+    margin-bottom: 40pt;
+}
+
+.precio{
+    display: inline-block;
+}
+
+.oferta{
+    color: #23a745;
+}
+
+.footer{
+    color:#707070;
+    width: 150px;
+    height:300px;
+}
